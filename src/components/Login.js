@@ -79,13 +79,13 @@ const Login = () => {
         <input
           ref={email}
           type="email"
-          placeholder="Email Address"
+          placeholder="Email Ex: test@gmail.com"
           className="p-3 my-2 bg-gray-600 w-full rounded-lg"
         />
         <input
           ref={password}
           type="password"
-          placeholder="Password"
+          placeholder="Password Ex: Test@123"
           className="p-3 my-2 bg-gray-600 w-full rounded-lg"
         />
         <p className="text-red-500 font-bold pt-3">{message}</p>
